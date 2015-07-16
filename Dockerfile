@@ -4,7 +4,7 @@
 # Originally written for Fedora-Dockerfiles by
 #   scollier <scollier@redhat.com>
 
-FROM centos:centos7
+FROM centos:latest
 MAINTAINER The CentOS Project <cloud-ops@centos.org>
 USER root
 

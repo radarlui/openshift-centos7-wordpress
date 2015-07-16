@@ -1,0 +1,13 @@
+{
+      "kind": "Route",
+      "apiVersion": "v1beta3",
+      "metadata": {
+        "name": "wordpress-route"
+      },
+      "spec": {
+        "host": "wordpress.cloudapps.example.com",
+        "to": {
+          "name": "wordpress-httpd-service"
+        }
+      }
+    }

@@ -68,6 +68,7 @@ supervisord -n
 }
 
 # Call all functions
+sudo su
 __check
 __create_user
 __mysql_config

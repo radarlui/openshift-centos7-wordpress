@@ -1,0 +1,19 @@
+    {
+      "kind": "Service",
+      "apiVersion": "v1beta3",
+      "metadata": {
+        "name": "wordpress-httpd-service"
+      },
+      "spec": {
+        "selector": {
+          "name": "wordpress"
+        },
+        "ports": [
+          {
+            "protocol": "TCP",
+            "port": 80,
+            "targetPort": 80
+          }
+        ]
+      }
+    }
